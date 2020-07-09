@@ -1,6 +1,6 @@
 ## Forms
 
-> In this project, we built a Rails app to demonstrate how to work with Active Forms.
+> In this project, we built a Rails app to demonstrate the knowledge of working with Forms in Rails.
 
 > The project description can be found [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms#introduction).
 
@@ -13,7 +13,7 @@
 
 * Configuration - from the project directory, run``` bundle install ```from command line (terminal) to install all the required gems.
 
-* Database creation - After cloning the project, navigate to the project directory (``` cd Micro-Reddit ```), then execute the following command ``` rails db:migrate ```or``` bin/rails db:migrate ``` to 'migrate' database.
+* Database creation - After cloning the project, navigate to the project directory (``` cd Microverse-Forms ```), then execute the following command ``` rails db:migrate ```or``` bin/rails db:migrate ``` to 'migrate' database.
 
 * How to run the test - Test should be run from CLI, by first starting the Rails server ``` rails server ```or```bin/rails server ``` from the project director. Then, open a new terminal in the same project directory, start a Rails console ``` rails console ``` to interact with the database via rails Active Record.
 
