@@ -15,44 +15,12 @@
 
 * Database creation - After cloning the project, navigate to the project directory (``` cd Microverse-Forms ```), then execute the following command ``` rails db:migrate ```or``` bin/rails db:migrate ``` to 'migrate' database.
 
-* How to run the test - Test should be run from CLI, by first starting the Rails server ``` rails server ```or```bin/rails server ``` from the project director. Then, open a new terminal in the same project directory, start a Rails console ``` rails console ``` to interact with the database via rails Active Record.
-
-### Adding entries to Active Record
-* Create a new user by executing the following command format in the rails console:
-```
-  u1 = User.new
-  u1.username = "username"
-  u1.password = "password"
-  ui.email = "email"
-  u1.save
-```
-
-* Execute ``` User.all ``` to list all the users with their ids
-
-* Create a new post by executing the following command format in the rails console:
-```
-  p1 = Post.new
-  p1.title = "Post title"
-  p1.body = "Post body"
-  p1.user_id = User id (listed by User.all)
-  p1.save
-```
-
-* Comment on any post by executing the following command format in the rails console:
-```
-  c1 = Comment.new
-  c1.body = "Comment body"
-  c1.post_id = Post id (listed by Post.all)
-  c1.user_id = User id (listed by Post.all)
-  c1.save
-```
 
 > The following operations were involved in this project:
 * Install Rails App.
 * Add User Model, Add Post Model, Add Comment Model.
 * Migrate the Database.
 * Add Validations to all Models.
-* Add Associations Between All Models.
 
 
 ## Authors
