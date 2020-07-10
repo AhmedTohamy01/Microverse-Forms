@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html>
 <!--
-<form action="/users" method="post" accept-charset="UTF-8">
+<form action="users_path" method="post" accept-charset="UTF-8">
 <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 
   <label for="username">username:</label>
@@ -18,7 +17,7 @@
 -->
 
 <!--
-<%= form_tag("/users", method: "post") do %>
+<%= form_tag("users_path", method: "post") do %>
     <%= label_tag(:username, "Username:")%>
     <%= text_field_tag(:username)%><br><br>
 
